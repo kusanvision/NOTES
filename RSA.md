@@ -1,8 +1,10 @@
 ---
 title: The RSA Public Key Cryptosystem
-author: Dr. Kusan Biswas
-email: kusan.biswas@dseu.ac.in
 date: \today
+author: |
+    |Dr. Kusan Biswas^[Typeset in markdown backed by \LaTeX ! Hosted at
+    [https://github.com/kusanvision/NOTES](https://github.com/kusanvision/NOTES)]
+    |kusan.biswas@dseu.ac.in
 ---
 [comment]: # $pandoc RSA.md -o RSA.pdf -s -V geometry:a4paper,margin=2cm
 
@@ -61,9 +63,9 @@ Now suppose Rakesh wants to send encrypted data to Amit. He encrypts the plainte
 
     \begin{align*}
      M &= 26^7\,mod\,33\\
-      & = \{(26\times26)\,mod\,33 \times (26\times26)\,mod\,33 \times (26\times26)\,mod\,33 \times
-      26\,mod\,33\}\,mod\,33\\
-      & = \{16\times16\times16\times26\}\,mod\,33\\
+      & = \Bigl((26\times26)\,mod\,33 \times (26\times26)\,mod\,33 \times (26\times26)\,mod\,33 \times
+      26\,mod\,33\Bigr)\,mod\,33\\
+      & = (16\times16\times16\times26)\,mod\,33\\
       & = 106496\,mod\,33\\
       & = 5\\
     \end{align*}
