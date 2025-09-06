@@ -1,10 +1,9 @@
 ---
-title: The Diffie--Hellman Key Exchange Algorithm
-date: \today
+title: "The Diffie--Hellman Key Exchange Algorithm"
 author: |
-    |Dr. Kusan Biswas^[Typeset in markdown backed by \LaTeX ! Hosted at
-    [https://github.com/kusanvision/NOTES](https://github.com/kusanvision/NOTES)]
-    |kusan.biswas@dseu.ac.in
+        | Dr. Kusan Biswas^[Typeset in markdown backed by \LaTeX ! Hosted at [https://github.com/kusanvision/NOTES](https://github.com/kusanvision/NOTES)]
+        | kusan.biswas@dseu.ac.in
+date: \today
 ---
 [comment]: # $pandoc DHKE.md -o DHKE.pdf -s -V geometry:a4paper,margin=2cm
 
